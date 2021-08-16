@@ -50,7 +50,7 @@ public class ScreenChange : MonoBehaviour
     {
         var current = SceneManager.GetActiveScene();
         SceneManager.UnloadSceneAsync(current);
-        SceneManager.LoadScene("LightBot #1");
+        SceneManager.LoadScene(current.name);
     }
 
     public void GamePause()
