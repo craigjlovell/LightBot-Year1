@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Demo/Scenes/SampleScene.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Sceens/Menu.unity
+    guid: d7ff1845345069845ad09cdda505d6c6
+  - enabled: 1
+    path: Assets/Sceens/Level Select.unity
+    guid: c77ba4f21c7e56540b6051184a2eddef
+  - enabled: 1
+    path: Assets/Sceens/PauseScreen.unity
+    guid: 2168dd83381a7ee41bca521161880139
+  - enabled: 1
+    path: Assets/Sceens/LightBot #1.unity
+    guid: 923ef4a9be36abd4b82191fe13ee4f5c
+  - enabled: 1
+    path: Assets/Sceens/LightBot #2.unity
+    guid: 10de0f06005e52349a81e7899b5e5f45
+  - enabled: 1
+    path: Assets/Sceens/LightBot #3.unity
+    guid: b1e4e0450c82aae4c887f80279f26f4c
+  - enabled: 1
+    path: Assets/Sceens/LightBot #4.unity
+    guid: 5bd31fb4f2c2f484f8c7c9e400ccf9e0
+  - enabled: 1
+    path: Assets/Sceens/LightBot #5.unity
+    guid: cf24ba80d723ed2468c37de91864576a
+  m_configObjects: {}
