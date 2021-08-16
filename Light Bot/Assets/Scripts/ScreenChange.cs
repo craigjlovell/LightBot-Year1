@@ -29,6 +29,14 @@ public class ScreenChange : MonoBehaviour
     {
         SceneManager.LoadScene("LightBot #3");
     }
+    public void LightBot4()
+    {
+        SceneManager.LoadScene("LightBot #4");
+    }
+    public void LightBot5()
+    {
+        SceneManager.LoadScene("LightBot #5");
+    }
     public void LevelSelect()
     {
         SceneManager.LoadScene("Level Select");

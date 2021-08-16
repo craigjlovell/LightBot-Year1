@@ -1448,6 +1448,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a96b025f8a2a5745a2189df9fc086a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  canvas: {fileID: 0}
+  index: 0
+  nextLevel: 
 --- !u!1 &138546886
 GameObject:
   m_ObjectHideFlags: 0
@@ -3190,6 +3194,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a96b025f8a2a5745a2189df9fc086a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  canvas: {fileID: 0}
+  index: 0
+  nextLevel: 
 --- !u!1 &469391005
 GameObject:
   m_ObjectHideFlags: 0
@@ -3951,6 +3959,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a96b025f8a2a5745a2189df9fc086a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  canvas: {fileID: 0}
+  index: 0
+  nextLevel: 
 --- !u!1 &634660787
 GameObject:
   m_ObjectHideFlags: 0
@@ -5935,6 +5947,7 @@ GameObject:
   - component: {fileID: 912242143}
   - component: {fileID: 912242142}
   - component: {fileID: 912242141}
+  - component: {fileID: 912242144}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -6005,7 +6018,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 912242142}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 912242144}
+        m_TargetAssemblyTypeName: ScreenChange, Assembly-CSharp
+        m_MethodName: LightBot4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &912242142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6044,6 +6069,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912242139}
   m_CullTransparentMesh: 1
+--- !u!114 &912242144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912242139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a96b025f8a2a5745a2189df9fc086a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  canvas: {fileID: 0}
+  index: 0
+  nextLevel: 
 --- !u!1 &913773667
 GameObject:
   m_ObjectHideFlags: 0
@@ -7893,6 +7934,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a96b025f8a2a5745a2189df9fc086a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  canvas: {fileID: 0}
+  index: 0
+  nextLevel: 
 --- !u!114 &1248386577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11107,6 +11152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a96b025f8a2a5745a2189df9fc086a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  canvas: {fileID: 0}
+  index: 0
+  nextLevel: 
 --- !u!114 &1933207277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11756,6 +11805,7 @@ GameObject:
   - component: {fileID: 2124908641}
   - component: {fileID: 2124908640}
   - component: {fileID: 2124908639}
+  - component: {fileID: 2124908642}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -11826,7 +11876,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2124908640}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2124908642}
+        m_TargetAssemblyTypeName: ScreenChange, Assembly-CSharp
+        m_MethodName: LightBot5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2124908640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11865,6 +11927,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124908637}
   m_CullTransparentMesh: 1
+--- !u!114 &2124908642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124908637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a96b025f8a2a5745a2189df9fc086a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  canvas: {fileID: 0}
+  index: 0
+  nextLevel: 
 --- !u!1 &2146319153
 GameObject:
   m_ObjectHideFlags: 0
